@@ -1,12 +1,270 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Recursive:wght@700&family=Source+Sans+Pro&family=Work+Sans:wght@600&display=swap"
+    rel="stylesheet">
+  <link href="./portfolio.css" rel="stylesheet">
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Esperanza (Hope) Acuna</title>
 </head>
+
 <body>
+
+  <div class="wrapper">
+
+    <!-- nav bar section -->
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light" style="background-color: #a286c0;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./sigilLogo.png" alt="logo" width="40" height="30" class="d-inline-block align-text-top"
+            id="myLogo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#navAbout">About</a>
+            <a class="nav-link" href="#navProjects">Portfolio</a>
+            <a class="nav-link" href="#navContact">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!--  header/ landing -->
+
+    <header class="headerArea">
+      <div class="headerImage">
+        <img class="profilePic" src="./assets/myProfilePic.jpg">
+      </div>
+
+      <div class="rightOfImage">
+
+        <div id="headerText">
+          <h1 id="myName">Esperanza (Hope)* Elise Acuña</h1>
+          <h6 id="astric">*Hope is the name I prefer</h6>
+          <h2 id="myTitle">Web Developer</h2>
+        </div>
+
+
+
+
+        <!-- About me section -->
+        <div class="aboutMe" id="navAbout">
+          <h1 id="aboutTitle">About Me</h1>
+          <br>
+          <p id="aboutMeBlurb">Hello! My name is Hope Acuña. I am currently a student at Eleven Fifty Academy. I have a
+            strong interest in coding that started with game development. I taught myself skills in Unity and C# and
+            dove
+            in. After making a few simple games, I wanted to learn something with more practical applications and
+            applied
+            for Eleven Fifty Academy's web development course. I have made several projects that I've poured my passion
+            in
+            to that I hope you love!</p>
+          <br>
+
+
+
+        </div>
+      </div>
+
+    </header>
+
+    <!-- Project section -->
+
+    <div class="projects" id="navProjects">
+
+      <h1 class="portfolioTitle">Portfolio</h1>
+
+      <div class="row">
+
+        <!-- static -->
+
+        <div class="card text-center" style="width: 18rem; background-color: rgb(29, 29, 29)">
+          <img src="./assets/huluStaticImage.PNG" class="card-img-top" alt="hulu static page">
+          <div class="card-body">
+            <br>
+            <br>
+            <h5 class="card-title">Hulu Static Layout</h5>
+            <p class="card-text">This project displays a static page modeled after the first two view heights of the
+              Hulu Welcome page. </p>
+            <a href="https://hopeacuna.github.io/staticLayout/" target="_blank" class="btn btn-primary"
+              style="background-color: #f4989d" id="projectButtons">See for Yourself!</a>
+          </div>
+        </div>
+
+        <!-- creature -->
+
+        <div class="card text-center" style="width: 18rem; background-color: rgb(29, 29, 29)">
+          <img src="./assets/cssCreatureImage.PNG" class="card-img-top" alt="Morpeko made from CSS">
+          <div class="card-body">
+            <h5 class="card-title">CSS Creature</h5>
+            <p class="card-text">This Morpeko is made entirely from CSS!</p>
+            <a href="https://codepen.io/efahope/pen/BapEzZb" target="_blank" class="btn btn-primary"
+              style="background-color: #f4989d " id="projectButtons">See for Yourself!</a>
+          </div>
+        </div>
+
+
+        <!-- api 1 -->
+
+        <div class="card text-center" style="width: 18rem; background-color: rgb(29, 29, 29)">
+          <img src="./assets/pokemonAPIimage.PNG" class="card-img-top" alt="...">
+          <div class="card-body">
+            <br>
+            <br>
+            <h5 class="card-title">Pokemon Type Matchups</h5>
+            <p class="card-text">This Pokemon type matchup calculator shows you what types will take double damage from
+              and do double damage against using the Pokemon API. Just select your typing to get your results!</p>
+            <a href="https://hopeacuna.github.io/apiOnePokemon/" target="_blank" class="btn btn-primary"
+              style="background-color: #f4989d" id="projectButtons">See for Yourself!</a>
+          </div>
+        </div>
+
+
+
+        <!-- api 2 -->
+
+        <div class="card text-center" style="width: 18rem; background-color: rgb(29, 29, 29)">
+          <img src="./assets/heroApiTwo.PNG" class="card-img-top" alt="...">
+          <div class="card-body">
+            <br>
+            <br>
+            <h5 class="card-title">Hero Battles</h5>
+            <p class="card-text">This uses a Superhero Api to pit two heros (or villians) against each other and
+              compares their stats to reveal a battle winner! Enter in any id to see your fighters!</p>
+            <a href="https://apichallenge2-7c0ec.web.app/" target="_blank" class="btn btn-primary" style="background-color: #f4989d" id="projectButtons">See for
+              Yourself!</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+
     
+
+        <div class="card text-center" style="width: 18rem; background-color: rgb(29, 29, 29)">
+          <img src="./assets/tba.png" class="card-img-top" alt="hulu static page">
+          <div class="card-body">
+            <br>
+            <br>
+            <h5 class="card-title">Blue Badge</h5>
+            <p class="card-text">TBA </p>
+            <a href="#"  class="btn btn-primary"
+              style="background-color: #f4989d" id="projectButtons">See for Yourself!</a>
+          </div>
+        </div>
+
+        
+
+        <div class="card text-center" style="width: 18rem; background-color: rgb(29, 29, 29)">
+          <img src="./assets/tba.png" class="card-img-top">
+          <div class="card-body">
+            <br>
+            <br>
+            <h5 class="card-title">Blue Badge</h5>
+            <p class="card-text">TBA</p>
+            <a href="#"  class="btn btn-primary"
+              style="background-color: #f4989d " id="projectButtons">See for Yourself!</a>
+          </div>
+        </div>
+
+       
+
+        <div class="card text-center" style="width: 18rem; background-color: rgb(29, 29, 29)">
+          <img src="./assets/tba.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <br>
+            <br>
+            <h5 class="card-title">Red Badge</h5>
+            <p class="card-text">TBA</p>
+            <a href="#"  class="btn btn-primary"
+              style="background-color: #f4989d" id="projectButtons">See for Yourself!</a>
+          </div>
+        </div>
+
+
+
+       
+        <div class="card text-center" style="width: 18rem; background-color: rgb(29, 29, 29)">
+          <img src="./assets/tba.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <br>
+            <br>
+            <h5 class="card-title">Red Badge</h5>
+            <p class="card-text">TBA</p>
+            <a href="#" class="btn btn-primary" style="background-color: #f4989d" id="projectButtons">See for
+              Yourself!</a>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+
+    <!-- contacts Section -->
+
+    <div class="contact" id="navContact">
+
+      <h1 class="contactTitle">Contact Me!</h1>
+
+      <!-- my FormSpree Endpoint is https://formspree.io/f/mleagpey -->
+
+      <div class="contactMe" id="contactForm">
+        <form action='https://formspree.io/f/mleagpey' method="POST" class="container-sm">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"
+              required name="_replyto">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder='Your Message Here'
+              required name="message"></textarea>
+            <button type="button" class="btn btn-danger" id="contactSubmit">Submit!</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+
+    <!-- footer -->
+
+    <div class="footer">
+      <footer>
+        <div class="links">
+          <a href="https://www.linkedin.com/in/esperanza-acuna-646969156/" target="_blank" id="footerLink"><i
+              class="fab fa-linkedin" id="linkedInLogo"></i></a>
+          <p id="divider"> | </p>
+          <a href="https://github.com/Hopeacuna" target="_blank" id="footerLink"><i class="fab fa-github"
+              id="githubLogo"></i></a>
+        </div>
+        <p>© Esperanza Acuna 2021</p>
+      </footer>
+
+    </div>
+
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/0ee59e12c9.js" crossorigin="anonymous"></script>
+
+
 </body>
+
 </html>

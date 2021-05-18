@@ -1,0 +1,165 @@
+.wrapper {
+    /* background-color: #f4989d; */
+    /* background-color: rgb(29, 29, 29); */
+    background: rgb(29,29,29);
+background: radial-gradient(circle, rgba(29,29,29,1) 0%, rgba(54,54,54,1) 100%);
+}
+
+/* NAV SECTION */
+
+#myLogo {
+    border-radius: 5px;
+}
+
+.headerArea {
+    color: #f4989d;
+    display: flex;
+    flex-direction: row;
+    margin: 25px;
+}
+.profilePic {
+    height: 500px;
+    border: solid 5px #bd8dbf;
+    border-radius: 5px;
+}
+/* .rightOfImage{
+    display: flex;
+    flex-direction: column;
+} */
+#headerText {
+    margin: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#myName {
+    font-size: 80px;
+}
+#astric {
+    font-size: 20px;
+}
+#myTitle {
+    font-size: 60px;
+}
+
+
+
+/* ABOUT ME SECTION */
+
+.aboutMe {
+    margin: 25px;
+    background-color: rgba(244, 152, 157, 0.52);
+    border: solid 5px rgb(244, 152, 157);
+    border-radius: 5px;
+    padding: 20px;
+}
+#aboutTitle {
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#aboutMeBlurb {
+    color: black;
+    font-family: 'Recursive', sans-serif;
+    font-size: 17px;
+}
+
+/* PROJECTS SECTION */
+
+.portfolioTitle {
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.projects {
+    margin: 25px;
+    background-color: rgba(125, 166, 217, 0.52);
+    border: solid 5px rgb(125, 166, 217);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    /* margin-top: 25px;
+    margin-bottom: 25px; */
+}
+
+.card {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: rgb(132,147,202);
+    
+}
+.card-text {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#projectButtons {
+    color: black;
+    background-color: #f4989d;
+    margin: 10px;
+}
+
+/* CONTACT ME SECTION */
+
+.contact {
+    margin: 25px;
+    background-color: rgba(135,129,189, 0.52);
+    border: solid 5px rgb(135,129,189);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.contactTitle {
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.form-label {
+    color: black;
+}
+
+#contactSubmit {
+    color: black;
+    background-color: #f4989d;
+    margin: 10px;
+}
+
+/* FOOTER */
+
+.footer{
+    background-color: #a286c0;
+}
+
+footer {
+    color: black;
+    text-align: center;
+}
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#linkedInLogo {
+    margin: 15px;
+    font-size: 30px;
+}
+#divider{
+    margin: 15px;
+}
+#githubLogo {
+    margin: 15px;
+    font-size: 30px;
+}
+#footerLink:link {
+    color: black;
+}
+#footerLink:visited {
+    color: black;
+}
+#footerLink:hover {
+    color: #f4989d;
+}
